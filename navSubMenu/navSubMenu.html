@@ -1,0 +1,8 @@
+<div class="submenu">
+    <div class="submenu-container">
+        <div class="itemActive" ng-click="ctrl.config.active=!ctrl.config.active" ng-class="{'selected':ctrl.config.active}">Active</div>
+        <!--<div class="toggle-{{$index}}" ng-repeat="i in ctrl.config.toggle track by $index">{{i}}</div>-->
+        <div class="itemPending" ng-click="ctrl.config.active=!ctrl.config.active" ng-class="{'selected':ctrl.config.active}">Pending</div>
+        <div class="itemInactive" ng-click="ctrl.config.active=!ctrl.config.active" ng-class="{'selected':ctrl.config.active}">Inactive</div>
+    </div>
+</div>
